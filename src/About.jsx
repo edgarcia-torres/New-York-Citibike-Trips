@@ -13,7 +13,6 @@ function NotFound (){
         <div className='container'>
 
         <Card style={{ width: '30rem' }} className='center'>
-        <Card.Img variant="top" src="me.jpg" />
         <Card.Body>
             <Card.Title>Edgar Garcia</Card.Title>
             <Card.Text>

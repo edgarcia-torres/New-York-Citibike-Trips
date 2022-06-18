@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+Navbar{
+    color:azure;
+}
+body{
+    color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.white{
+    color: azure;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p {
+    text-align: justify;
+    text-justify: inter-word;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .center {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    display:inline-block;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+#trips-table tr:hover {
+     cursor:pointer;
+     color: white;
+     background: rgb(7, 0, 0);
+     outline: thin solid;
+    }
+#table-header{
+    background-color: rgb(140, 173, 196); color: black ;
+
+}
+#leaflet { height: 400px; }
+.Subscriber { background-color: rgb(253, 189, 189); color: rgb(0, 0, 0);
+    padding: 10px; }
+.Customer { background-color: rgb(187, 219, 240); color: black ;
+    padding: 10px; }
+.thd { background-color: rgb(170, 220, 255); color: black ; }
+
+.Btn{
+    color:rgb(1, 27, 46)
+}
+#tableHead{
+    background-color:azure; color: black ;
+    font-weight:bolder;
 }

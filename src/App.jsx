@@ -4,9 +4,8 @@
  * No part of this assignment has been copied manually or electronically from any other source
  * (including web sites) or distributed to other students. * 
  * 
- * Name: Edgar David Garcia Torres  Student ID: 104433206  Date: 19/05/2022
- * 
- * Heroku Link: 
+ * Name: Edgar David Garcia Torres  Student ID: 104433206  Date: 17/06/2022
+
  * *******************************************************************************************/
 
 import React from 'react';
@@ -27,13 +26,13 @@ function App() {
 
 
   return (
-      <>
-        <Navbar bg="dark" expand="lg" className="navbar navbar-dark " text="white">
-          <LinkContainer to="/">
-            <Navbar.Brand className="white" text="white">New York Citibike Trips</Navbar.Brand>
-          </LinkContainer>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+    <>
+      <Navbar bg="dark" expand="lg" className="navbar navbar-dark " text="white">
+        <LinkContainer to="/">
+          <Navbar.Brand className="white" text="white">New York Citibike Trips</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <LinkContainer to="/trips">
               <Nav.Link>Full List</Nav.Link>
@@ -42,26 +41,26 @@ function App() {
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
           </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        <br />
+        </Navbar.Collapse>
+      </Navbar>
+      <br />
 
-        <Container>
-          <Row>
-            <Col>
+      <Container>
+        <Row>
+          <Col>
             <Routes>
-              <Route path='/' element={<Trips />}/>
-              <Route path='/Trips' element={<Trips />}/>
-              <Route path='/Trip/:id' element={<Trip  />}/>
-              <Route path='/About' element={<About />}/>
-              <Route path='*' element={<NotFound />}/>
+              <Route path='/' element={<Trips />} />
+              <Route path='/Trips' element={<Trips />} />
+              <Route path='/Trip/:id' element={<Trip />} />
+              <Route path='/About' element={<About />} />
+              <Route path='*' element={<NotFound />} />
             </Routes>
-            </Col>
-          </Row>
-        </Container>
-<br /><br />
+          </Col>
+        </Row>
+      </Container>
+      <br /><br />
 
-      </>
+    </>
   )
 }
 
